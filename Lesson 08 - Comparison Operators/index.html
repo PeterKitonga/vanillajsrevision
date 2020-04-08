@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Comparison Operators</title>
+</head>
+<body>
+<div class="container">
+    <div class="row my-3">
+        <div class="col">
+            <div class="shadow-lg p-5 mb-5 bg-white rounded">
+                <div class="d-flex flex-row justify-content-between">
+                    <div class="p-2"><a class="btn btn-outline-primary btn-lg" href="/Lesson 07 - Concatenation" role="button"><< Back</a></div>
+                    <div class="p-2"><h1 class="display-4">Comparison Operators</h1> </div>
+                    <div class="p-2"><a class="btn btn-outline-success btn-lg" href="/Lesson 09 - Logical Operators" role="button">Next >></a></div>                        
+                </div>
+                <hr>
+                <p>
+                    In JavaScript, comparison operators are used tp compare values of variables. They can be used to run certain sections of code when the conditions are satisfied.
+                    There are a number of comparison operators as follows:
+                    <ol type="1">
+                        <li>Equality ==</li>
+                        <li>Inequality !=</li>
+                        <li>Strict equality ===</li>
+                        <li>Strict inequality ===</li>
+                        <li>Greater than > </li>
+                        <li>Less than < </li>
+                        <li>Greater than or equal to >= </li>
+                        <li>Less than or equal to <= </li>
+                    </ol>
+                    For more comprehensive info, check out <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators" target="_blank" class="btn btn-sm btn-outline-primary">here > </a>
+                </p>
+                <hr>
+                <h2>Code:</h2>
+                <div class="jumbotron">
+                    <pre class="javascript" style="font-family:monospace;"><ol><li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #000066; font-weight: bold;">var</span> name <span style="color: #339933;">=</span> <span style="color: #3366CC;">'Peter'</span><span style="color: #339933;">,</span></div></li><li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">    age <span style="color: #339933;">=</span> <span style="color: #CC0000;">26</span><span style="color: #339933;">,</span></div></li><li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">    fathers_age <span style="color: #339933;">=</span> <span style="color: #CC0000;">50</span><span style="color: #339933;">;</span></div></li><li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp;</div></li><li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #006600; font-style: italic;">// works with variables of different data types. Checks and converts variable data type before comparison</span></div></li><li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">console.<span style="color: #660066;">log</span><span style="color: #009900;">&#40;</span>age <span style="color: #339933;">==</span> <span style="color: #3366CC;">'26'</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span></div></li><li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">console.<span style="color: #660066;">log</span><span style="color: #009900;">&#40;</span>age <span style="color: #339933;">!=</span> <span style="color: #3366CC;">'26'</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span></div></li><li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp;</div></li><li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #006600; font-style: italic;">// strict, only works with vairables of the same data type</span></div></li><li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">console.<span style="color: #660066;">log</span><span style="color: #009900;">&#40;</span>age <span style="color: #339933;">===</span> <span style="color: #3366CC;">'26'</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span></div></li><li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">console.<span style="color: #660066;">log</span><span style="color: #009900;">&#40;</span>age <span style="color: #339933;">!==</span> <span style="color: #3366CC;">'26'</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span></div></li><li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp;</div></li><li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">console.<span style="color: #660066;">log</span><span style="color: #009900;">&#40;</span>age <span style="color: #339933;">&gt;</span> fathers_age<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span></div></li><li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">console.<span style="color: #660066;">log</span><span style="color: #009900;">&#40;</span>age <span style="color: #339933;">&lt;</span> fathers_age<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span></div></li></ol></pre>
+                </div>
+                <h2>
+                    Result:
+                    <small class="text-muted">Open console</small>
+                </h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="assets/js/custom.js"></script>
+</body>
+</html>
