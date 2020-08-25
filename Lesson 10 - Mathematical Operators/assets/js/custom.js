@@ -23,7 +23,7 @@ number_two--;
 console.log('Decrement result: ' + number_two);
 
 result = number_one % number_two;
-console.log('Reminder result: ' + result);
+console.log('Remainder result: ' + result);
 
 // this operator can also be used to determine wether a number is even by dividing it by 2. If the result is 0, it is even
 result = number_one % 2 === 0;
