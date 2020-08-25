@@ -1,7 +1,7 @@
 var names = ['Peter', 'Wayne', 'Fred', 'Jax', 'Stacy'];
 
 /* *
-* Since arrays are 0 indexed, the second parameter(condition) of the for long is a constraint to prevent the loop from iterating outside the bounds of the array.
+* Since arrays are 0 indexed, the second parameter(condition) of the for loop is a constraint to prevent the loop from iterating outside the bounds of the array.
 * 
 * The `names.length` will dynamically pick the number of items in the array and update the condition that constraints the iteration.
 * */ 
